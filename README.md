@@ -20,7 +20,7 @@ A simple, short, mostly customisable GitHub Action to show your bot's status in 
 - Copy [this](./example.yml) snippet in `./github/workflows/main.yml` in your repository. 📁
 - The workflow will automatically run at interval of 3 hours. 🏃 
 
-**⚠️ You'll need a valid JSON with all your bots with some additional information. Example is given in example.json, But the link shuld point to raw data like [here](). You can use [npoint.io](https://npoint.io), [gist.github.com](https://gist.github.com), [pastebin.com](https://pastebin.com), [JSONKeeper.com](https://jsonkeeper.com) etc...**
+**⚠️ You'll need a valid JSON with all your bots with some additional information. Example is given in example.json, But the link shuld point to raw data like [here](https://raw.githubusercontent.com/Hiteshxd/BotStatus/main/example.json). You can use [npoint.io](https://npoint.io), [gist.github.com](https://gist.github.com), [pastebin.com](https://pastebin.com), [JSONKeeper.com](https://jsonkeeper.com) etc...**
 
 **You can also use `${{ steps.bot-status.outputs.STATUS }}` for using the JSON data (containing the name of bot, username and status) wherever you want to use them.**
 
@@ -41,7 +41,7 @@ A simple, short, mostly customisable GitHub Action to show your bot's status in 
 | `APP_ID` | Get it from [my.telegram.org](https://my.telegram.org) | `None` | `a1bbfb767fd59812bxxxxxxxxxxxxxxx` |
 | `IDS` | IDs of the Messgage followed with `chat id` | `None` | `-100153418xxxx:3 -100225478xxxx:16` |
 | `SESSION` | [![Run on Repl.it](https://replit.com/badge/github/jainamoswal/SessionString)](https://replit.com/@jainamoswal/SessionString) | `None` | `xxxxxxxxxxxxxxxx.....` |
-| `BOTS` | Raw link of JSON file of bots. | [🔗 Link 🔗]() | [JSON format](/example.json) ║ [Raw link]() |
+| `BOTS` | Raw link of JSON file of bots. | [🔗 Link 🔗](https://raw.githubusercontent.com/Hiteshxd/BotStatus/main/example.json) | [JSON format](/example.json) ║ [Raw link](https://raw.githubusercontent.com/Hiteshxd/BotStatus/main/example.json) |
 
 
 **Format of chat IDs » `chat id`:`message id` 
