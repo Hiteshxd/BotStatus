@@ -1,0 +1,18 @@
+{
+	"LisaXRobot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"KellyXRobot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"NancyXRobot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"MaximXRobot": {
+		"start": "start",
+		"sleep": 2
+	}
+}
